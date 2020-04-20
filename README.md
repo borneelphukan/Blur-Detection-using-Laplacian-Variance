@@ -19,9 +19,10 @@ Fig. Laplacian Variance Kernel. ![Laplacian Variance](https://github.com/borneel
 1. Import the libraries. 
 2. Set the input directory of the images. 
 3. Set the threshold value (by default I've taken 100) 
-4. Run a loop through every images in the directory. 
-         * 1. Run the 3x3 Laplacian Kernel over the image. 
-         * 2. If the value received is less than threshold, 
+4. Run a loop through every images in the directory.
+
+         1. Run the 3x3 Laplacian Kernel over the image. 
+         2. If the value received is less than threshold, 
                 then, it is a blurred image. 
-         * 3. If the value received is more than threshold, 
+         3. If the value received is more than threshold, 
                 then, it is a non-blur image.
