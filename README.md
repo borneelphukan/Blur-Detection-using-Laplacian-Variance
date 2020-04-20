@@ -26,3 +26,8 @@ Fig. Laplacian Variance Kernel. ![Laplacian Variance](https://github.com/borneel
                 then, it is a blurred image. 
          3. If the value received is more than threshold, 
                 then, it is a non-blur image.
+
+## Running the application.
+1. Create a folder directory "images".
+2. Add your images inside the directory.
+3. Run the "blur_detection.py" by using the command "python blur_detection.py --images images"
