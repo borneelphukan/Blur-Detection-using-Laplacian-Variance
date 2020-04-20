@@ -10,12 +10,15 @@ the image is classified as blurred and if it is greater than 100, it is classifi
 OpenCV contains the Laplacian Kernel which is a pre-defined 3X3 matrix. This matrix slides through the image and returns the overall 
 Laplacian Variance of the image.
 
+![Laplacian Variance](Laplacian Variance.png)
+Format: ![Alt Text](url)
+
 ## STEPS EXPLAINING THE STRUCTURE OF CLASSIFIER:
 
-STEP 1: Import the libraries. 
-Step 2: Set the input directory of the images. 
-STEP 3: Set the threshold value (by default I've taken 100) 
-STEP 4: Run a loop through every images in the directory. 
+**STEP 1:** Import the libraries. 
+**Step 2:** Set the input directory of the images. 
+**STEP 3:** Set the threshold value (by default I've taken 100) 
+**STEP 4:** Run a loop through every images in the directory. 
           i. Run the 3x3 Laplacian Kernel over the image. 
           ii. If the value received is less than threshold, 
                 then, it is a blurred image. 
