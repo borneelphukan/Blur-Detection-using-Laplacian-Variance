@@ -16,12 +16,12 @@ Fig. Laplacian Variance Kernel. ![Laplacian Variance](https://github.com/borneel
 
 ## STEPS EXPLAINING THE STRUCTURE OF CLASSIFIER:
 
-**STEP 1:** Import the libraries. 
-**Step 2:** Set the input directory of the images. 
-**STEP 3:** Set the threshold value (by default I've taken 100) 
-**STEP 4:** Run a loop through every images in the directory. 
-          i. Run the 3x3 Laplacian Kernel over the image. 
-          ii. If the value received is less than threshold, 
+* **STEP 1:** Import the libraries. 
+* **Step 2:** Set the input directory of the images. 
+* **STEP 3:** Set the threshold value (by default I've taken 100) 
+* **STEP 4:** Run a loop through every images in the directory. 
+          * i. Run the 3x3 Laplacian Kernel over the image. 
+          * ii. If the value received is less than threshold, 
                 then, it is a blurred image. 
-          iii. If the value received is more than threshold, 
+          * iii. If the value received is more than threshold, 
                 then, it is a non-blur image.
