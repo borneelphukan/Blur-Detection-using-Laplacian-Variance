@@ -11,7 +11,7 @@ OpenCV contains the Laplacian Kernel which is a pre-defined 3X3 matrix. This mat
 Laplacian Variance of the image.
 
 ![Laplacian Variance](Laplacian Variance.png)
-Format: ![Alt Text](url)
+Format: ![Laplacian Variance](https://github.com/borneelphukan/Blur-Detector-using-OpenCV-Laplacian-Variance/blob/master/Laplacian%20Variance.png)
 
 ## STEPS EXPLAINING THE STRUCTURE OF CLASSIFIER:
 
