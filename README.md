@@ -10,7 +10,7 @@ the image is classified as blurred and if it is greater than 100, it is classifi
 OpenCV contains the Laplacian Kernel which is a pre-defined 3X3 matrix. This matrix slides through the image and returns the overall 
 Laplacian Variance of the image.
 
-![Laplacian Variance](Laplacian Variance.png)
+
 Format: ![Laplacian Variance](https://github.com/borneelphukan/Blur-Detector-using-OpenCV-Laplacian-Variance/blob/master/Laplacian%20Variance.png)
 
 ## STEPS EXPLAINING THE STRUCTURE OF CLASSIFIER:
